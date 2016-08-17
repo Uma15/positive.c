@@ -31,7 +31,7 @@ void reverse(char *begin, char *end)
 }
 int main()
 {
-  char s[] = "i like this program very much";
+  char s[] = "i like this program";
   char *temp = s;
   reverseWords(s);
   printf("%s", s);
